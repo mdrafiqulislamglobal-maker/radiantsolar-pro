@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radiant Solar | Premium Solar Energy Infrastructure Ireland</title>
-    <meta name="description" content="Radiant Solar provides high-efficiency solar energy solutions. Radiant Solar is the top rated solar installer for reliable solar savings.">
+    <title>Radiant Solar | Premium Solar Energy Solutions Ireland</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <script>
@@ -23,144 +22,100 @@
         }
     </script>
     <style>
-        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .hero-mesh { background-color: #1A1A1A; background-image: radial-gradient(at 0% 0%, hsla(18,100%,45%,0.15) 0, transparent 50%), radial-gradient(at 100% 100%, hsla(18,100%,45%,0.1) 0, transparent 50%); }
+        body { transition: background-color 0.3s ease, color 0.3s ease; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .dark .glass { background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.05); }
     </style>
 </head>
-<body class="bg-white text-secondary dark:bg-[#0F0F0F] dark:text-accent transition-colors duration-300">
+<body class="bg-white text-zinc-900 dark:bg-[#0A0A0A] dark:text-zinc-100 font-sans">
 
-    <nav class="fixed w-full z-50 glass dark:bg-black/50 py-4 px-6 flex justify-between items-center">
+    <nav class="fixed w-full z-50 py-4 px-6 flex justify-between items-center bg-white/80 dark:bg-black/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800">
         <div class="text-2xl font-extrabold tracking-tighter text-primary">RADIANT SOLAR</div>
         <div class="flex items-center gap-4">
-            <button onclick="document.documentElement.classList.toggle('dark')" class="p-2 rounded-full bg-gray-100 dark:bg-zinc-800">🌓</button>
-            <a href="#contact" class="bg-primary text-white px-6 py-2 rounded-full font-bold text-sm hover:scale-105 transition">GET ELITE QUOTE</a>
+            <button onclick="document.documentElement.classList.toggle('dark')" class="p-2 rounded-xl bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-xl">🌓</button>
+            <a href="#contact" class="bg-primary text-white px-6 py-2 rounded-full font-bold text-sm hover:scale-105 transition">GET QUOTE</a>
         </div>
     </nav>
 
-    <section class="min-h-screen flex items-center justify-center pt-20 hero-mesh px-6">
+    <section class="min-h-screen flex items-center justify-center pt-20 px-6 bg-zinc-50 dark:bg-[#0F0F0F]">
         <div class="max-w-5xl text-center">
-            <h1 class="text-5xl md:text-8xl font-extrabold leading-none mb-6 dark:text-white">
+            <h1 class="text-5xl md:text-8xl font-extrabold leading-none mb-6 text-zinc-900 dark:text-white">
                 Stop Donating Your <span class="text-primary">Wealth</span> To The Grid.
             </h1>
-            <p class="text-lg md:text-xl opacity-80 mb-10 max-w-2xl mx-auto">
-                <strong>Radiant Solar</strong> delivers advanced solar energy solutions for those who refuse to settle for average efficiency. Own your power today.
+            <p class="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 mb-10 max-w-2xl mx-auto">
+                <strong>Radiant Solar</strong> delivers advanced solar energy solutions for high-efficiency independence. Own your power today.
             </p>
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <button class="bg-primary text-white px-10 py-5 rounded-xl font-black text-lg shadow-2xl shadow-primary/20">SECURE MY SEAI GRANT</button>
-                <button class="glass px-10 py-5 rounded-xl font-bold border border-primary/30">VIEW PERFORMANCE DATA</button>
+                <button class="bg-primary text-white px-10 py-5 rounded-2xl font-black text-lg shadow-xl shadow-primary/20">SECURE MY SEAI GRANT</button>
+                <button class="bg-white dark:bg-zinc-800 text-zinc-900 dark:text-white border border-zinc-200 dark:border-zinc-700 px-10 py-5 rounded-2xl font-bold">VIEW PERFORMANCE</button>
             </div>
         </div>
     </section>
 
-    <section class="py-24 px-6 bg-zinc-50 dark:bg-zinc-900/50">
+    <section class="py-24 px-6 bg-white dark:bg-black">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
             <div>
-                <h2 class="text-4xl font-black mb-6 text-primary uppercase">The Silent Wealth Leak</h2>
-                <p class="text-xl leading-relaxed opacity-90">Every hour your roof remains empty, you are paying a "Tax on Inaction." In Ireland, energy inflation is volatile. <strong>Radiant Solar</strong> stops the bleed instantly.</p>
-                <div class="mt-8 space-y-4">
-                    <div class="flex items-center gap-4 text-red-500 font-bold"><span>✕</span> No Solar: €2,400+ Lost Yearly</div>
-                    <div class="flex items-center gap-4 text-green-500 font-bold"><span>✓</span> Radiant Solar: 95% Savings Guaranteed</div>
+                <h2 class="text-4xl font-black mb-6 text-primary">THE SILENT WEALTH LEAK</h2>
+                <p class="text-xl leading-relaxed text-zinc-700 dark:text-zinc-300">
+                    In Ireland, every hour your roof is empty, energy inflation steals your savings. <strong>Radiant Solar</strong> stops the bleed instantly.
+                </p>
+                <div class="mt-8 space-y-4 font-bold">
+                    <div class="flex items-center gap-4 text-red-500 italic">✕ NO SOLAR: €2,400+ LOST YEARLY</div>
+                    <div class="flex items-center gap-4 text-green-500 uppercase">✓ RADIANT SOLAR: 95% SAVINGS GUARANTEED</div>
                 </div>
             </div>
             <div class="grid grid-cols-2 gap-4">
-                <div class="bg-white dark:bg-zinc-800 p-8 rounded-3xl shadow-xl border-b-4 border-red-500 text-center">
-                    <div class="text-sm font-bold opacity-60">MONEY LOST</div>
-                    <div class="text-3xl font-black">€12,000</div>
-                    <div class="text-xs">Over 5 Years</div>
+                <div class="bg-zinc-50 dark:bg-zinc-900 p-8 rounded-3xl border border-zinc-200 dark:border-zinc-800 text-center">
+                    <div class="text-sm font-bold opacity-60 uppercase">Money Lost</div>
+                    <div class="text-3xl font-black text-zinc-900 dark:text-white">€12,000</div>
+                    <div class="text-xs opacity-50 uppercase">Over 5 Years</div>
                 </div>
                 <div class="bg-primary p-8 rounded-3xl shadow-xl text-white text-center">
-                    <div class="text-sm font-bold opacity-80">SOLAR ROI</div>
-                    <div class="text-3xl font-black">4.2 Yrs</div>
-                    <div class="text-xs">Payback Period</div>
+                    <div class="text-sm font-bold opacity-80 uppercase">Solar ROI</div>
+                    <div class="text-3xl font-black">4.2 YRS</div>
+                    <div class="text-xs opacity-80 uppercase">Payback Period</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-24 px-6">
-        <h2 class="text-center text-4xl font-black mb-16 uppercase">Professional Renewable Energy Consultation</h2>
+    <section class="py-24 px-6 bg-zinc-50 dark:bg-[#0F0F0F]">
+        <h2 class="text-center text-4xl font-black mb-16 text-zinc-900 dark:text-white uppercase">Energy Independence Tiers</h2>
         <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div class="p-8 border dark:border-zinc-800 rounded-3xl opacity-50 grayscale hover:grayscale-0 transition">
+            <div class="p-8 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-3xl opacity-60">
                 <h3 class="text-xl font-bold">Basic Grid</h3>
-                <p class="text-sm my-4">Standard panels for minimal use.</p>
-                <div class="text-3xl font-black">€5,500</div>
+                <p class="text-sm my-4 text-zinc-500">Standard panels for minimal use.</p>
+                <div class="text-3xl font-black text-zinc-900 dark:text-white">€5,500</div>
             </div>
-            <div class="p-10 bg-primary rounded-[2.5rem] text-white scale-110 shadow-2xl relative">
-                <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-white text-primary px-6 py-1 rounded-full text-sm font-black uppercase shadow-lg">Most Requested</div>
-                <h3 class="text-2xl font-black">Radiant Solar Ultra</h3>
-                <p class="text-sm my-4 opacity-90 text-white">High Efficiency Photovoltaic Systems with Smart Battery Integration.</p>
+            <div class="p-10 bg-primary rounded-[2.5rem] text-white scale-105 shadow-2xl relative">
+                <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-white text-primary px-6 py-1 rounded-full text-xs font-black uppercase">Most Requested</div>
+                <h3 class="text-2xl font-black">RADIANT SOLAR ULTRA</h3>
+                <p class="text-sm my-4 text-white/90">High Efficiency Photovoltaic Systems with Smart Battery Integration.</p>
                 <div class="text-5xl font-black">€8,900</div>
-                <p class="text-xs mt-4 italic">*Price after SEAI Grant deductions</p>
-                <button class="w-full bg-white text-primary mt-8 py-4 rounded-2xl font-black">INSTALL THIS SYSTEM</button>
+                <button class="w-full bg-white text-primary mt-8 py-4 rounded-2xl font-black">INSTALL NOW</button>
             </div>
-            <div class="p-8 border dark:border-zinc-800 rounded-3xl opacity-50 grayscale hover:grayscale-0 transition">
+            <div class="p-8 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-3xl opacity-60">
                 <h3 class="text-xl font-bold">Commercial Pro</h3>
-                <p class="text-sm my-4">Industrial grade energy farms.</p>
-                <div class="text-3xl font-black">€22,000+</div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-24 px-6 bg-black text-white">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-center text-3xl font-black mb-12 uppercase text-primary">Radiant Solar Vs. Cheap Alternatives</h2>
-            <div class="space-y-4">
-                <div class="grid grid-cols-2 p-6 glass rounded-2xl">
-                    <div class="opacity-60">Standard Installers</div>
-                    <div class="text-primary font-bold">Radiant Solar Edge</div>
-                </div>
-                <div class="grid grid-cols-2 p-6 border-b border-zinc-800">
-                    <div>15 Year Warranty</div>
-                    <div class="text-primary font-bold">35 Year Elite Warranty</div>
-                </div>
-                <div class="grid grid-cols-2 p-6 border-b border-zinc-800">
-                    <div>Generic Inverters</div>
-                    <div class="text-primary font-bold">AI-Driven Smart Converters</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-24 px-6 text-center">
-        <h2 class="text-4xl font-black mb-4">Best Solar ROI Ireland</h2>
-        <p class="opacity-70 mb-12">Sustainable Green Power Infrastructure pays for itself faster than any bank interest.</p>
-        <div class="max-w-3xl mx-auto h-64 bg-zinc-100 dark:bg-zinc-800 rounded-[3rem] flex items-center justify-center border-4 border-dashed border-zinc-300 dark:border-zinc-700">
-            <span class="text-xl font-bold opacity-30 italic leading-tight text-center px-6">Interactive Savings Visualizer Loading...<br>Projected 25-Year Wealth: €48,600</span>
-        </div>
-    </section>
-
-    <section class="py-24 px-6 bg-primary/5">
-        <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <div class="group p-10 bg-white dark:bg-zinc-900 rounded-3xl hover:bg-primary transition duration-500 cursor-pointer shadow-xl">
-                <h3 class="text-2xl font-black group-hover:text-white mb-4 uppercase leading-none">Residential Estates</h3>
-                <p class="group-hover:text-white/80">Architectural solar integration for high-end Irish homes.</p>
-            </div>
-            <div class="group p-10 bg-white dark:bg-zinc-900 rounded-3xl hover:bg-primary transition duration-500 cursor-pointer shadow-xl">
-                <h3 class="text-2xl font-black group-hover:text-white mb-4 uppercase leading-none">Industrial Power</h3>
-                <p class="group-hover:text-white/80">Top Rated Solar Installers for large scale factories and farms.</p>
+                <p class="text-sm my-4 text-zinc-500">Industrial grade energy farms.</p>
+                <div class="text-3xl font-black text-zinc-900 dark:text-white">€22,000+</div>
             </div>
         </div>
     </section>
 
     <section class="py-20 px-6 bg-primary text-white text-center">
-        <h2 class="text-5xl font-black mb-6 leading-none">ONLY 4 SLOTS LEFT FOR MARCH.</h2>
-        <p class="text-xl mb-10 font-bold opacity-90 uppercase tracking-widest text-center">Reliable Solar Savings Guide - Secure Your Rebate Now!</p>
-        <a href="#contact" class="inline-block bg-black text-white px-12 py-6 rounded-2xl font-black text-xl hover:scale-110 transition shadow-2xl">CLAIM MY QUOTE TODAY</a>
+        <h2 class="text-4xl md:text-6xl font-black mb-6">ONLY 4 SLOTS LEFT FOR MARCH.</h2>
+        <p class="text-lg md:text-xl font-bold opacity-90 uppercase mb-10">Government SEAI grants are limited. Secure your rebate today!</p>
+        <button class="bg-black text-white px-12 py-5 rounded-2xl font-black text-xl hover:scale-105 transition shadow-2xl">CLAIM MY QUOTE NOW</button>
     </section>
 
-    <footer class="py-16 px-6 bg-zinc-950 text-white border-t border-zinc-900">
-        <div class="max-w-6xl mx-auto text-center">
-            <div class="text-4xl font-black text-primary mb-4 italic">RADIANT SOLAR</div>
-            <p class="opacity-50 text-sm max-w-xl mx-auto mb-10 text-center">
-                Radiant Solar is a leader in advanced energy engineering. We provide the best solar technology for sustainable energy independence across Ireland.
-            </p>
-            <div class="pt-10 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-6">
-                <p class="font-bold">Designed & Developed by <span class="text-primary">Md Rafiqul Islam</span> | © 2026-27</p>
-                <div class="flex gap-6 opacity-60 text-xs">
-                    <span>PRIVACY POLICY</span>
-                    <span>DUBLIN OFFICE: +353</span>
-                </div>
-            </div>
+    <footer class="py-16 px-6 bg-white dark:bg-black border-t border-zinc-200 dark:border-zinc-800 text-center">
+        <div class="text-4xl font-black text-primary mb-4 italic">RADIANT SOLAR</div>
+        <p class="text-zinc-500 dark:text-zinc-500 text-sm max-w-xl mx-auto mb-10">
+            Leading Ireland in sustainable green power infrastructure and elite renewable energy engineering.
+        </p>
+        <div class="pt-10 border-t border-zinc-100 dark:border-zinc-900">
+            <p class="font-bold text-zinc-900 dark:text-white">Designed & Developed by <span class="text-primary text-lg">Md Rafiqul Islam</span></p>
+            <p class="text-xs text-zinc-400 mt-2 uppercase">© 2026-27 | All Rights Reserved</p>
         </div>
     </footer>
 
